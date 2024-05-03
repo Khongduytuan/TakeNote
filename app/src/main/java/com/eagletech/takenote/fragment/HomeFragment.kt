@@ -134,7 +134,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
     }
 
-
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
