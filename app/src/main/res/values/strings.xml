@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TakeNote</string>
+    <string name="image">image</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bersyte">bersyte</string>
+</resources>
