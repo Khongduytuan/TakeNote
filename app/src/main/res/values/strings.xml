@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">TakeNote</string>
     <string name="image">image</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="bersyte">bersyte</string>
+    <string name="buy_3_notes">Buy 3 notes</string>
+    <string name="buy_5_notes">Buy 5 notes</string>
+    <string name="buy_10_notes">Buy 10 notes</string>
+    <string name="subpremium">SubPremium</string>
 </resources>

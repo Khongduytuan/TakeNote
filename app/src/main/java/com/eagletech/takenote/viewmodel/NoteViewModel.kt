@@ -43,7 +43,6 @@ class NoteViewModel(application: Application) : ViewModel() {
             }
     }
 
-
     class NoteViewModelFactory(private val application: Application) :
         ViewModelProvider.Factory {
 

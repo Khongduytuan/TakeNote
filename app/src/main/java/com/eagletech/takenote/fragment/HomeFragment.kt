@@ -76,41 +76,41 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             noteViewModel._noteDataStateFlow.collect { it ->
                 when (it) {
                     is NoteDataState.Loading -> {
-                        Toast.makeText(
-                            requireContext(),
-                            "Loading data...",
-                            Toast.LENGTH_LONG
-                        ).show()
+//                        Toast.makeText(
+//                            requireContext(),
+//                            "Loading data...",
+//                            Toast.LENGTH_LONG
+//                        ).show()
 
 
                     }
 
                     is NoteDataState.Failure -> {
-                        Toast.makeText(
-                            requireContext(),
-                            "Error Get Data Quiz ${it.msg}",
-                            Toast.LENGTH_LONG
-                        ).show()
+//                        Toast.makeText(
+//                            requireContext(),
+//                            "Error Get Data Quiz ${it.msg}",
+//                            Toast.LENGTH_LONG
+//                        ).show()
 
                     }
 
                     is NoteDataState.Success -> {
-                        Toast.makeText(
-                            requireContext(),
-                            "Get Data Success!",
-                            Toast.LENGTH_LONG
-                        ).show()
+//                        Toast.makeText(
+//                            requireContext(),
+//                            "Get Data Success!",
+//                            Toast.LENGTH_LONG
+//                        ).show()
                         adapter.setNotes(it.data)
                         binding.tvNoNoteAvailable.isVisible = false
                         binding.recyclerView.isVisible = true
                     }
 
                     is NoteDataState.Empty -> {
-                        Toast.makeText(
-                            requireContext(),
-                            "Data Is Empty",
-                            Toast.LENGTH_LONG
-                        ).show()
+//                        Toast.makeText(
+//                            requireContext(),
+//                            "Data Is Empty",
+//                            Toast.LENGTH_LONG
+//                        ).show()
                         adapter.setNotes(it.data)
                         binding.tvNoNoteAvailable.isVisible = true
                         binding.recyclerView.isVisible = false

@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.eagletech.takenote"
-        minSdk = 24
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -121,14 +121,7 @@ dependencies {
     androidTestImplementation ("androidx.test.espresso:espresso-contrib:3.5.1")
 
     // Mockk.io
-    androidTestImplementation ("io.mockk:mockk-android:1.9.3")
-
-    // androidx.test
-//    androidTestImplementation ("androidx.test:runner:1.1.2")
-//    androidTestImplementation ("androidx.test:core:1.1.2")
-//    androidTestImplementation ("androidx.test.ext:junit-ktx:1.1.2")
-
-    // androidx.fragment
-//    debugImplementation ("androidx.fragment:fragment-testing:1.3.2")
-//    implementation ("androidx.fragment:fragment-ktx:1.3.2")
+//    androidTestImplementation ("io.mockk:mockk-android:1.9.3")
+    // Payment Amazon
+    implementation("com.amazon.device:amazon-appstore-sdk:3.0.4")
 }
