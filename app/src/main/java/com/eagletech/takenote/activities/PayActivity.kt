@@ -83,7 +83,7 @@ class PayActivity : AppCompatActivity() {
                         Log.v("IAP SDK", "loaded userdataResponse")
                     }
 
-                    UserDataResponse.RequestStatus.FAILED, UserDataResponse.RequestStatus.NOT_SUPPORTED ->                         // Fail gracefully.
+                    UserDataResponse.RequestStatus.FAILED, UserDataResponse.RequestStatus.NOT_SUPPORTED ->
                         Log.v("IAP SDK", "loading failed")
                 }
             }
